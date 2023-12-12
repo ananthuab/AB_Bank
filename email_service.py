@@ -9,7 +9,7 @@ class EmailService:
     def send_email(self, user_email, pdf_path):
         # Add your email configuration here
         email_address = "<ananthakrishnanb21@gmail.com>"
-        email_password = "<rhzgxxvwzfhorovz>"
+        email_password = "<rhzgxxvw********>"
 
         msg = EmailMessage()
         msg.set_content("Please find attached your bank statement.")
